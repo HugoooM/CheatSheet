@@ -8,7 +8,6 @@
 
 2. ``End Sub`` Délimite la fin de la macro
 
-
 ## Optionnels
 
 - ``'`` Commente la ligne
