@@ -34,4 +34,28 @@
 - ``double`` Nombre à virgule double précision
 - ``char`` Caractère
 
+## Conditions
+### Comparaisons
 
+- ``==`` Égal à
+- ``!=`` Différent de
+- ``<`` Inférieur à
+- ``>`` Supérieur à
+- ``<=`` Inférieur ou égal à
+- ``>=`` Supérieur ou égal à
+- ``&&`` Et
+- ``||`` Ou
+- ``!`` Non
+- ``?`` Alors
+- ``:`` Sinon
+
+### if
+- ``if (x >= 0){
+    y = x;
+    }``
+
+    ``else {
+        y = -x;
+    }``
+- *Equivalent :*
+    ``y = (x>=0) ? x:-x;``
