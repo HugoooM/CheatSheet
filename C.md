@@ -34,7 +34,7 @@
 - ``double`` Nombre à virgule double précision
 - ``char`` Caractère
 
-## Conditions
+## Conditions et boucles
 ### Comparaisons
 
 - ``==`` Égal à
@@ -50,12 +50,35 @@
 - ``:`` Sinon
 
 ### if
-- ``if (x >= 0){
-    y = x;
-    }``
+    if (x >= 0){
+        y = x;
+    }
 
-    ``else {
-        y = -x;
-    }``
-- *Equivalent :*
+    else {
+            y = -x;
+    }
+**Equivalent à :**
     ``y = (x>=0) ? x:-x;``
+
+### switch
+    switch (x) {
+        case 1:
+            y = 1;
+            break;
+        case 2:
+            y = 2;
+            break;
+        default:
+            y = 0;
+            break;
+    }
+
+### while
+    while (x < 10) {
+        x++;
+    }
+
+### do while
+    do {
+        x++;
+    } while (x < 10);
